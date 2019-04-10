@@ -1,0 +1,46 @@
+
+/*body remains static*/
+#body {
+
+}
+
+/*manually position body parts, need to full size window to have them match */
+
+#eyes {
+ position:relative;  
+ bottom: 400px;
+ right:375px;
+}
+
+#hat {
+ position:relative;
+ right: 725px;
+ bottom:475px;
+}
+#mouth {
+ position:relative;  
+ right:1100px;
+ bottom:225px;
+}
+
+#mustache {
+ position:relative; 
+  bottom: 225px;
+  right: 1400px;
+  z-index:5;
+}
+#nose {
+ position:relative;  
+ bottom: 450px;
+ right: 360px;
+ z-index:6;
+}
+
+/*tried to use float for shoes, works because it is the bottom piece*/
+#shoes {
+  position:relative; 
+  float:left;
+  bottom:150px;
+
+}
+
