@@ -20,19 +20,19 @@
 #mouth {
  position:relative;  
  right:1100px;
- bottom:225px;
+ bottom:210px;
 }
 
 #mustache {
  position:relative; 
-  bottom: 225px;
-  right: 1400px;
+  bottom: 400px;
+  right: 425px;
   z-index:5;
 }
 #nose {
  position:relative;  
- bottom: 450px;
- right: 360px;
+ bottom: 475px;
+ right: 725px;
  z-index:6;
 }
 
